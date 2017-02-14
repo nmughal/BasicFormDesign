@@ -14,7 +14,7 @@
 
         <aside>
           <label for='fullname-input'>Full Name</label>
-          <input type='text' name='fullname' id='fullname-input'>
+          <input type='text' name='fullname' id='fullname-input' required>
         </aside>
 
         <aside>
@@ -41,14 +41,21 @@
 
         <aside>
           <label for='origin-story'>Origin Story</label>
-          <textarea name='origin-story' id='origin-story'></textarea>
+          <textarea name='origin-story' id='origin-story' required></textarea>
         </aside>
       </fieldset>
 
       <fieldset>
         <legend>Abilities</legend>
+
         <label for='lightsaber-color'>Lightsaber Color</label>
-        <input type='text' name='lightsaber-color' id='lightsaber-color'>
+        <select id='lightsaber-color'>
+          <option value='Select an option'>Select an option</option>
+          <option value='blue'>blue</option>
+          <option value='red'>red</option>
+          <option value='yellow'>yellow</option>
+          <option value='green'>green</option>
+        </select>
 
         <legend>How many objects can you levitate at once?</legend>
 
