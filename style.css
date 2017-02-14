@@ -1,0 +1,11 @@
+
+/*body {
+  float: center;
+}*/
+
+fieldset {
+  vertical-align: top;
+  display: inline-block;
+  width: 350px;
+  margin: 0;
+}
