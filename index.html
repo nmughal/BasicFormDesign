@@ -15,7 +15,7 @@
 
         <aside>
           <label for='fullname-input'>Full Name</label>
-          <input type='text' name='fullname' id='fullname-input' required>
+          <input type='text' class='fullname' name='fullname' id='fullname-input' placeholder='Luke Skywalker' required>
         </aside>
         <aside>
           <label for='profile-pic'>Profile Pic</label>
@@ -24,40 +24,43 @@
 
         <aside>
           <label for='email'>Email</label>
-          <input type='email' name='email' id='email' placeholder='luke@sky.com' required>
+          <input type='email' class='email' name='email' id='email' placeholder='luke@sky.com' required>
 
         </aside>
-        <legend>Side:</legend>
+
+        <label>Side:</label>
         <aside>
 
-          <label>
+          <label class='radio'>
           <input type='radio' name='side' value='light'>
             Light
           </label>
-          <label>
+          <label class='radio'>
             <input type='radio' name='side' value='dark'>
             Dark
           </label>
 
         </aside>
+
         <aside>
           <label for='origin-story'>Origin Story</label>
-          <textarea name='origin-story' id='origin-story' required></textarea>
+          <textarea name='origin-story' class='origin-story' id='origin-story' required></textarea>
         </aside>
       </fieldset>
 
       <fieldset>
         <legend>Abilities</legend>
+
         <aside>
-        <label for='lightsaber-color'>Lightsaber Color</label>
-        <select id='lightsaber-color'>
-          <option value='Select an option'>Select an option</option>
-          <option value='blue'>Blue</option>
-          <option value='red'>Red</option>
-          <option value='green'>Yellow</option>
-          <option value='purple'>Green</option>
-        </select>
-        </aside>
+          <label for='lightsaber-color'>Lightsaber Color</label>
+          <select id='lightsaber-color'>
+            <option value='select-color'>Select Color</option>
+            <option value='blue'>Blue</option>
+            <option value='red'>Red</option>
+            <option value='green'>Yellow</option>
+            <option value='purple'>Green</option>
+          </select>
+          </aside>
 
         <aside>
           <label for='levitate'>How many objects can you levitate at once?</label>
@@ -66,37 +69,38 @@
 
         <aside>
           <label for='ability'>Favorite Ability</label>
-          <input type='text' name='ability' id='ability' placeholder='precognition'>
+          <input type='text' class='ability' name='ability' id='ability' placeholder='precognition'>
         </aside>
 
         <aside>
-          <legend>Pilot Experience</legend>
-          <label>
+          <label class="checkbox">
+            <label for='pilot-experience'>Pilot Experience</label>
+
             <input type='checkbox' name='pilot-experience' value='speeder'>
             Speeder
           </label>
 
-          <label>
+          <label class="checkbox">
             <input type='checkbox' name='pilot-experience' value='transport'>
             Transport
           </label>
 
-          <label>
+          <label class="checkbox">
             <input type='checkbox' name='pilot-experience' value='x-wing'>
             X-wing
           <label>
 
-          <label>
+          <label class="checkbox">
             <input type='checkbox' name='pilot-experience' value='tie-fighter'>
             TIE Fighter
           </label>
 
-          <label>
+          <label class="checkbox">
             <input type='checkbox' name='pilot-experience' value='starship'>
             Starship
           </label>
 
-          <label>
+          <label class="checkbox">
             <input type='checkbox' name='pilot-experience' value='bantha'>
             Bantha
           </label>
@@ -107,7 +111,7 @@
         <legend>Application Info</legend>
         <aside>
           <label for='mentor'>Desired Mentor</label>
-          <input type='text' name='mentor' id='mentor' placeholder='Yoda'>
+          <input type='text' class='mentor' name='mentor' id='mentor' placeholder='Yoda'>
         </aside>
 
         <aside>
@@ -122,7 +126,7 @@
 
         <aside>
           <label for='dark-side'>How do you get to the dark side?</label>
-          <textarea name='dark-side' id='dark-side'></textarea>
+          <textarea name='dark-side' class='dark-side' id='dark-side'></textarea>
         </aside>
 
         <input type='reset' value='Start Over'>

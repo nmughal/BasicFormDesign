@@ -1,11 +1,28 @@
 
-/*body {
-  float: center;
-}*/
-
 fieldset {
   vertical-align: top;
   display: inline-block;
-  width: 350px;
-  margin: 0;
+  width: 30%;
+  margin-left: 0.5em;
+}
+
+label {
+  display: block;
+}
+
+.fullname, .email, .ability, .mentor, {
+  width: 100%;
+}
+
+.origin-story, .dark-side{
+  width: 100%;
+  height: 5em;
+}
+
+.checkbox, .radio {
+  display: inline;
+}
+
+.checkbox input {
+  margin: 0 10px;
 }
