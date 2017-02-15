@@ -10,13 +10,13 @@ label {
   display: block;
 }
 
-.fullname, .email, .ability, .mentor, {
+.fullname, .email, .ability, .mentor{
   width: 100%;
 }
 
 .origin-story, .dark-side{
   width: 100%;
-  height: 5em;
+  height: 6em;
 }
 
 .checkbox, .radio {
