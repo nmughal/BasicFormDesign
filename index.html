@@ -8,11 +8,12 @@
   </head>
 
   <body>
+
     <form action='http://requestb.in/uwyszmuw' method='POST'>
       <h1> Force User Sign Up Form</h1>
       <fieldset>
-        <legend>Basic Info</legend>
 
+        <legend>Basic Info</legend>
         <aside>
           <label for='fullname-input'>Full Name</label>
           <input type='text' class='fullname' name='fullname' id='fullname-input' placeholder='Luke Skywalker' required>
@@ -21,27 +22,21 @@
           <label for='profile-pic'>Profile Pic</label>
           <input type='file' name='profile-pic' id='profile-pic'>
         </aside>
-
         <aside>
           <label for='email'>Email</label>
           <input type='email' class='email' name='email' id='email' placeholder='luke@sky.com' required>
-
         </aside>
-
-        <label>Side:</label>
+        <h2>Side:</h2>
         <aside>
-
           <label class='radio'>
-          <input type='radio' name='side' value='light'>
+            <input type='radio' name='side' value='light'>
             Light
           </label>
           <label class='radio'>
             <input type='radio' name='side' value='dark'>
             Dark
           </label>
-
         </aside>
-
         <aside>
           <label for='origin-story'>Origin Story</label>
           <textarea name='origin-story' class='origin-story' id='origin-story' required></textarea>
@@ -50,57 +45,48 @@
 
       <fieldset>
         <legend>Abilities</legend>
-
         <aside>
           <label for='lightsaber-color'>Lightsaber Color</label>
-          <select id='lightsaber-color'>
-            <option value='select-color'>Select Color</option>
+          <select name='lightsabercolor' id='lightsaber-color'>
+            <option value='select-color'></option>
             <option value='blue'>Blue</option>
             <option value='red'>Red</option>
             <option value='green'>Yellow</option>
             <option value='purple'>Green</option>
           </select>
-          </aside>
-
+        </aside>
         <aside>
           <label for='levitate'>How many objects can you levitate at once?</label>
           <input type='number' name='levitate' id='levitate' min="1">
         </aside>
-
         <aside>
           <label for='ability'>Favorite Ability</label>
           <input type='text' class='ability' name='ability' id='ability' placeholder='precognition'>
         </aside>
 
         <aside>
-          <label class="checkbox">
-            <label for='pilot-experience'>Pilot Experience</label>
-
+          <h2>Pilot Experience</h2>
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='speeder'>
             Speeder
           </label>
-
-          <label class="checkbox">
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='transport'>
             Transport
           </label>
-
-          <label class="checkbox">
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='x-wing'>
             X-wing
-          <label>
-
-          <label class="checkbox">
+          </label>
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='tie-fighter'>
             TIE Fighter
           </label>
-
-          <label class="checkbox">
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='starship'>
             Starship
           </label>
-
-          <label class="checkbox">
+          <label class='checkbox'>
             <input type='checkbox' name='pilot-experience' value='bantha'>
             Bantha
           </label>
@@ -109,34 +95,30 @@
 
       <fieldset>
         <legend>Application Info</legend>
-        <aside>
-          <label for='mentor'>Desired Mentor</label>
-          <input type='text' class='mentor' name='mentor' id='mentor' placeholder='Yoda'>
-        </aside>
-
-        <aside>
-          <label for='date'>Application Date</label>
-          <input type='date' name='date' id='date' required>
-        </aside>
-
-        <aside>
-          <label for='app-password'>Application Password</label>
-          <input type='password' name='password' id='app-password' required>
-        </aside>
-
-        <aside>
-          <label for='dark-side'>How do you get to the dark side?</label>
-          <textarea name='dark-side' class='dark-side' id='dark-side'></textarea>
-        </aside>
-
-        <input type='reset' value='Start Over'>
-        <input type='submit' value='Apply'>
-
+          <aside>
+            <label for='mentor'>Desired Mentor</label>
+            <input type='text' class='mentor' name='mentor' id='mentor' placeholder='Yoda'>
+          </aside>
+          <aside>
+            <label for='date'>Application Date</label>
+            <input type='date' name='date' id='date' required>
+          </aside>
+          <aside>
+            <label for='app-password'>Application Password</label>
+            <input type='password' name='password' id='app-password' required>
+          </aside>
+          <aside>
+            <label for='dark-side'>How do you get to the dark side?</label>
+            <textarea name='dark-side' class='dark-side' id='dark-side'></textarea>
+          </aside>
+            <input type='reset' value='Start Over'>
+            <input type='submit' value='Apply'>
       </fieldset>
 
       <footer>
         <p>&copy; 2016 The Republic</p>
       </footer>
+    </form>
 
   </body>
 

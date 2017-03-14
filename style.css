@@ -3,11 +3,17 @@ fieldset {
   vertical-align: top;
   display: inline-block;
   width: 30%;
-  margin-left: 0.5em;
 }
 
 label {
   display: block;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+h2 {
+  margin: 11px 0 0 0;
+  font-size: 1em;
 }
 
 .fullname, .email, .ability, .mentor{
@@ -21,6 +27,7 @@ label {
 
 .checkbox, .radio {
   display: inline;
+  font-weight: lighter;
 }
 
 .checkbox input {
